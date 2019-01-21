@@ -70,7 +70,7 @@ class single_linked_list:
             pnode = cnode
             cnode = cnode.next
         if cnode.data == value:
-            pnode.next = conde.next
+            pnode.next = cnode.next
             print("del success")
             del cnode
         else:
